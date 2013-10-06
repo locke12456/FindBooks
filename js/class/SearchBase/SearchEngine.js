@@ -25,7 +25,7 @@ Search.SearchEngine = Class.extend({
             responseData.results = responseData.results = responseData.results || [];
 
             for (var i = 0; i < responseData.results.length; i++) {
-                var td = '<td>' + responseData.results[i].title + '</td>';
+                var td = '<td>' + Search.SearchEngine.HeaderReplace(responseData.results[i].title) + '</td>';
                 td += '<td  id=list_tr' + i.toString() + '_dec >' + responseData.results[i].content + '</td>';
                 var tag = '<tr id=list_tr' + i.toString() + ' class=List' + '>' + td + '</tr>';
                 $("#List").append(tag);
@@ -45,6 +45,11 @@ Search.SearchEngine = Class.extend({
 
 
 });
+Search.SearchEngine.HeaderReplace=function(name){
+    name = name.replace("博客來","");
+    name = name.replace("-","");
+    return name;
+}
 Search.SearchEngine.loadBookMessage = function (e) {
     var url = $("#" + e.currentTarget.id).attr("name");
     var dec = $("#" + e.currentTarget.id+"_dec").text();

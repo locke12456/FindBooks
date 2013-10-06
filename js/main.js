@@ -3,13 +3,15 @@ var exports = exports || {};
 
 require([ 'lib/tagfinder', 'lib/google-search', 'class/SearchBase/SearchEngine'], function (jquery) {
     $("#search").click(onSearchClick);
-    //
+    $("#bookInformation").click(closeBookInformation);
 });
 function onSearchClick(e) {
     var search = new Search.SearchEngine();
     search.search($("#input").val(),"www.books.com.tw",callback);
 }
-
+function closeBookInformation(e){
+    $(this).hide();
+}
 function callback(data) {
     try {
         var parser = exports.decomposeHtml(data.results[0], ["img"]);
@@ -20,6 +22,7 @@ function callback(data) {
         var img = OnlyGetUrl(parser.tags, [name]);
         img = img.replace("&amp;", "&");
         img = img.replace("&amp;", "&");
+
         $('#book_img').attr("src", img);
         $("#bookAuthor").text("作者 : "+author);
         $("#bookName").text("書名 : "+name);
