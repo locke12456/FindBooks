@@ -1,0 +1,40 @@
+.ListContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.ListTable {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.List {
+    background-color: #c8cfc7;
+}
+.BookInformationContain{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #c8cfc7;
+}
+
+.BookInformation{
+    width: 100%;
+    height: 50%;
+}
+.BookInformationImage{
+    width: 100%;
+    height: 100%;
+}
+.BookInformationText{
+    width: 80%;
+    height: 10%;
+}

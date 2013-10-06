@@ -1,0 +1,81 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/Search.css">
+    <link rel="stylesheet" href="css/SearchListContain.css">
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/jquery.scrollview.js"></script>
+    <script src="js/require.js" data-main="js/header"></script>
+</head>
+<body>
+<script>
+    function init() {
+        require(['main']);
+        $("#ListContainer").scrollview({
+            grab: "http://jquery-scrollview.googlecode.com/svn/trunk/images/openhand.cur",
+            grabbing: "http://jquery-scrollview.googlecode.com/svn/trunk/images/closedhand.cur"
+        });
+        $("#ListContainer").hide();
+        $("#bookInformation").hide();
+    }
+</script>
+<div id="ListContainer" class="ListContainer">
+    <div id=ListTable class="ListTable">
+        <table id="List">
+
+        </table>
+    </div>
+</div>
+<div align="center"><a class="Logo">FindBooks</a></div>
+<table align="center">
+    <tr>
+        <td><input class="SearchInput" id="input" type="text" size="30%"></td>
+        <td>
+            <button class=SearchButton id="search" size="10%"> Search</button>
+        </td>
+    </tr>
+</table>
+<div id="bookInformation" class="BookInformationContain">
+    <div class="BookInformation">
+        <table>
+            <tr>
+                <td>
+                    <div>
+                        <div align="center"><img src="" id="book_img" class="BookInformationImage"></div>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <table>
+                            <tr>
+
+                                <td id="bookName" class=BookInformationText>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bookAuthor" class=BookInformationText>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bookPublishing" class=BookInformationText>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bookISBN" class=BookInformationText>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+        <div id="bookDepiction">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

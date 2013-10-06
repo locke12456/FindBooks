@@ -1,0 +1,10 @@
+{
+    "name": "FindBooks",
+    "description": "Say hello to FirefoxOS world!",
+    "launch_path": "/index.html",
+    "developer": {
+        "name": "Locke Chen",
+        "url": "Your Website Link Here"
+    },
+    "default_locale": "en"
+}
