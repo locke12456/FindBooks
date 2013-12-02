@@ -1,24 +1,51 @@
 var HTMLParser;
 var exports = exports || {};
 
-require([ 'lib/tagfinder', 'lib/google-search', 'class/SearchBase/SearchEngine'], function (jquery) {
+require([ 'lib/tagfinder', 'lib/google-search','class/SearchBase/SearchEngine'], function (jquery) {
     $("#search").click(onSearchClick);
-    $("#bookInformation").click(closeBookInformation);
+    $("#BookInfoClose").click(closeBookInformation);
+    /*var record = document.querySelector("#record");
+
+    try{
+        if (record) {
+            record.onclick = function () {
+                var rec = new MozActivity({
+                    name: "record" // Possibly capture in future versions
+                });
+
+                rec.onsuccess = function () { 
+                        var img = document.createElement("img");
+                    img.src = window.URL.createObjectURL(this.result.blob);
+                    var imagePresenter = document.querySelector("#image-presenter");
+                    imagePresenter.appendChild(img);
+                    imagePresenter.style.display = "block";
+                };
+
+                rec.onerror = function () { 
+                        alert("No taken picture returned");
+                };
+            }
+        }
+    }catch(e){
+
+    }*/
 });
 function onSearchClick(e) {
     var search = new Search.SearchEngine();
     search.search($("#input").val(),"www.books.com.tw",callback);
 }
 function closeBookInformation(e){
-    $(this).hide();
+    $("#bookInformation").hide();
+    $("#KeywordSearch").show();
 }
 function callback(data) {
     try {
-        var parser = exports.decomposeHtml(data.results[0], ["img"]);
+        var parser = exports.decomposeHtml(data.results[0], ["img","strong"]);
         var name = getValue(parser.pieces, ["<h1>"], 500);
         var author = getValue(parser.pieces, ["作者"], 500);
         var data = getValue(parser.pieces, ["出版社"], 500);
         var isbn = OnlyGetValue(parser.pieces, ["ISBN"], 500);
+        var piece = getValue(parser.tags,[""],500);
         var img = OnlyGetUrl(parser.tags, [name]);
         img = img.replace("&amp;", "&");
         img = img.replace("&amp;", "&");
@@ -29,6 +56,7 @@ function callback(data) {
         $("#bookPublishing").text("出版社 : "+data);
         $("#bookISBN").text(isbn);
         $("#bookInformation").show();
+
     } catch (e) {
         alert(e.toString());
     }

@@ -1,4 +1,4 @@
-(function($) {
+(function ($) {
     /**
      * Simple wrapper around the Google AJAX Search API.
      *
@@ -32,7 +32,8 @@
      *    - For search type specific parameters, see:
      *      http://code.google.com/apis/ajaxsearch/documentation/reference.html#_fonje_web
      */
-    $.googleSearch = function(query, options) {
+    var _search_queue = [];
+    $.googleSearch = function (query, options) {
         var settings = $.extend({
             version: "1.0",
             type: "web",
@@ -46,9 +47,18 @@
 
         var url = "http://ajax.googleapis.com/ajax/services/search/" + settings.type + "?callback=?&";
 
-        var callback = function(response) {
+        var callback = function (response) {
             settings.callback(response.responseData);
         };
         $.getJSON(url, urlParams, callback);
+    };
+    $.addToQueue = function (query, options) {
+        _search_queue.push(
+            $.extend({
+                version: "1.0",
+                type: "web",
+                query: query
+            }, options)
+        );
     };
 })(jQuery);

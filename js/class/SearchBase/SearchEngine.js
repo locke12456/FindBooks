@@ -25,7 +25,7 @@ Search.SearchEngine = Class.extend({
             responseData.results = responseData.results = responseData.results || [];
 
             for (var i = 0; i < responseData.results.length; i++) {
-                var td = '<td>' + Search.SearchEngine.HeaderReplace(responseData.results[i].title) + '</td>';
+                var td = '<td>' + Search.SearchEngine.HeaderReplace(responseData.results[i].title,"博客來") + '</td>';
                 td += '<td  id=list_tr' + i.toString() + '_dec >' + responseData.results[i].content + '</td>';
                 var tag = '<tr id=list_tr' + i.toString() + ' class=List' + '>' + td + '</tr>';
                 $("#List").append(tag);
@@ -37,6 +37,7 @@ Search.SearchEngine = Class.extend({
             }
             if(responseData.results.length!=0)
             $("#ListContainer").show();
+            $("#KeywordSearch").hide();
             var callback = this._callback;
         } catch (e) {
             throw ("Search fail");
@@ -45,10 +46,19 @@ Search.SearchEngine = Class.extend({
 
 
 });
-Search.SearchEngine.HeaderReplace=function(name){
-    name = name.replace("博客來","");
+Search.SearchEngine.HeaderReplace=function(name,header){
+    name = name.replace(header,"");
     name = name.replace("-","");
     return name;
+}
+Search.SearchEngine.LoadPage = function (url_path,callback) {
+    var url = url_path;
+    //var callback = Search.SearchEngine.callback;
+    $.ajax({
+        url: "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D'" + url + "'&format=xml&callback=callback",
+        type: 'GET',
+        dataType: 'jsonp'
+    });
 }
 Search.SearchEngine.loadBookMessage = function (e) {
     var url = $("#" + e.currentTarget.id).attr("name");

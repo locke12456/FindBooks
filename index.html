@@ -4,22 +4,39 @@
     <link rel="stylesheet" href="css/Search.css">
     <link rel="stylesheet" href="css/SearchListContain.css">
     <script src="js/vendor/jquery.min.js"></script>
+    <script src='https://raw.github.com/jamespadolsey/jQuery-Plugins/master/cross-domain-ajax/jquery.xdomainajax.js' type='text/javascript'></script>
     <script src="js/vendor/jquery.scrollview.js"></script>
     <script src="js/require.js" data-main="js/header"></script>
 </head>
 <body>
 <script>
+
     function init() {
         require(['main']);
         $("#ListContainer").scrollview({
             grab: "http://jquery-scrollview.googlecode.com/svn/trunk/images/openhand.cur",
             grabbing: "http://jquery-scrollview.googlecode.com/svn/trunk/images/closedhand.cur"
         });
+
+        //
+        $("#BookInfoClose").down(false);//,$("#MainContext").width());
+        /*set MainContext to center position*/
+        $("#MainContext").center(false, -$("#MainContext").height() / 2);
+        /* */
+        $("#MenuContext").center(true, -3, $("#MenuContext").width() / 4);
+        //$("#MenuContext").css("position","fixed");
+        $("#MenuBar").css("width", $(window).width());
+        $("#MenuBar").css("padding", 26);
+        $("#MenuBar").down(false);
+
         $("#ListContainer").hide();
         $("#bookInformation").hide();
+        //$("#KeywordSearch").hide();
+        /**/
 
     }
 </script>
+
 <div id="ListContainer" class="ListContainer">
     <div id=ListTable class="ListTable">
         <table id="List">
@@ -27,15 +44,6 @@
         </table>
     </div>
 </div>
-<div align="center"><a class="Logo">FindBooks</a></div>
-<table align="center">
-    <tr>
-        <td><input class="SearchInput" id="input" type="text" size="30%"></td>
-        <td>
-            <button class=SearchButton id="search" size="10%"> Search</button>
-        </td>
-    </tr>
-</table>
 <div id="bookInformation" class="BookInformationContain">
     <div class="BookInformation">
         <table>
@@ -49,7 +57,6 @@
                     <div>
                         <table>
                             <tr>
-
                                 <td id="bookName" class=BookInformationText>
                                 </td>
                             </tr>
@@ -75,7 +82,41 @@
         </table>
         <div id="bookDepiction">
         </div>
-        <button class="Back">Back</button>
+        <button id="BookInfoClose" class="Back">Back</button>
+    </div>
+</div>
+<div id="KeywordSearch">
+    <div id="MainContext">
+        <div align="center"><a class="Logo">FindBooks</a></div>
+        <table align="center">
+            <tr>
+                <td><input class="SearchInput" id="input" type="text" size="30%"></td>
+                <td>
+                    <button class=SearchButton id="search" size="10%"> Search</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="MenuBar">
+        <table id="MenuContext">
+            <tr>
+                <td width="64" align="center">
+                    <div class="MenuButton" id="SearchByKeyword">
+                        <object data="svg/pen.svg" width="48"></object>
+                    </div>
+                </td>
+                <td width="64" align="center">
+                    <div class="MenuButton" id="ScanISBN">
+                        <object data="svg/camera.svg" width="48"></object>
+                    </div>
+                </td>
+                <td width="64" align="center">
+                    <div class="MenuButton" id="History">
+                        <object data="svg/history.svg" width="48"></object>
+                    </div>
+                </td>
+            </tr>
+        </table>
     </div>
 </div>
 
