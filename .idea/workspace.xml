@@ -26,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="51" selection-start="224" selection-end="224" vertical-scroll-proportion="-3.875" vertical-offset="0" max-vertical-offset="4030">
+            <state line="5" column="51" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="4030">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="22" selection-start="28" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+            <state line="1" column="22" selection-start="28" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="SearchEngine.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/class/SearchBase/SearchEngine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="2153" selection-end="2153" vertical-scroll-proportion="0.0" vertical-offset="1447" max-vertical-offset="2573">
+            <state line="54" column="0" selection-start="2153" selection-end="2153" vertical-scroll-proportion="0.0" vertical-offset="1674" max-vertical-offset="2573">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="jquery.min.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/vendor/jquery.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="17299" selection-end="17299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="434">
+            <state line="18" column="0" selection-start="17299" selection-end="17299" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="744">
               <folding />
             </state>
           </provider>
@@ -72,9 +72,7 @@
         <entry file="file://$PROJECT_DIR$/js/lib/tagfinder.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="100" column="0" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.0" vertical-offset="2874" max-vertical-offset="9610">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,17 +81,15 @@
         <entry file="file://$PROJECT_DIR$/js/class/Class.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2139">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="38" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.46911764" vertical-offset="394" max-vertical-offset="2387">
+            <state line="86" column="16" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0" vertical-offset="1507" max-vertical-offset="2387">
               <folding>
                 <element signature="e#243#1084#0" expanded="false" />
               </folding>
@@ -101,16 +97,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="FindBooks.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://D:/Flash/Flash/MSSR Findbook/Main/MSSR_function/FindBooks.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="194" column="8" selection-start="4603" selection-end="4631" vertical-scroll-proportion="0.5928899" vertical-offset="5497" max-vertical-offset="25389">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="26" selection-start="8604" selection-end="8604" vertical-scroll-proportion="-76.9" vertical-offset="706" max-vertical-offset="5053">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="122" column="26" selection-start="8604" selection-end="8604" vertical-scroll-proportion="0.0" vertical-offset="706" max-vertical-offset="5053">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,8 +147,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1688" />
-    <option name="height" value="1030" />
+    <option name="width" value="1928" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -176,6 +176,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -314,7 +315,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,15 +395,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1688" height="1030" extended-state="6" />
+    <frame x="-4" y="-4" width="1928" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17321429" sideWeight="0.77949286" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1515625" sideWeight="0.77949286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22050716" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -412,6 +411,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -458,39 +458,36 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/svg/1385914096_32.svg">
+    <entry file="file://$PROJECT_DIR$/js/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1446" selection-start="1446" selection-end="1461" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="186">
+        <state line="122" column="26" selection-start="8604" selection-end="8604" vertical-scroll-proportion="0.0" vertical-offset="706" max-vertical-offset="5053">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/1385914096_32.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1446" selection-start="1446" selection-end="1461" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="186" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/svg/pen.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2095" selection-start="2084" selection-end="2099" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="186">
-          <folding />
-        </state>
+        <state line="0" column="2095" selection-start="2084" selection-end="2099" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="186" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/svg/history.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="55" selection-start="564" selection-end="577" vertical-scroll-proportion="0.38613862" vertical-offset="22" max-vertical-offset="806">
-          <folding />
-        </state>
+        <state line="7" column="55" selection-start="564" selection-end="577" vertical-scroll-proportion="0.38613862" vertical-offset="22" max-vertical-offset="806" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/Search.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="38" selection-start="3154" selection-end="3154" vertical-scroll-proportion="1.3166023" vertical-offset="2325" max-vertical-offset="3968">
-          <folding />
-        </state>
+        <state line="97" column="38" selection-start="3154" selection-end="3154" vertical-scroll-proportion="1.3166023" vertical-offset="2325" max-vertical-offset="3968" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/lib/google-search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="6" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2139">
-          <folding />
-        </state>
+        <state line="35" column="6" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2139" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
@@ -517,27 +514,20 @@
     <entry file="file://$PROJECT_DIR$/js/class/Class.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2139">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="26" selection-start="8604" selection-end="8604" vertical-scroll-proportion="-76.9" vertical-offset="706" max-vertical-offset="5053">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="122" column="26" selection-start="8604" selection-end="8604" vertical-scroll-proportion="0.0" vertical-offset="706" max-vertical-offset="5053">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="51" selection-start="224" selection-end="224" vertical-scroll-proportion="-3.875" vertical-offset="0" max-vertical-offset="4030">
+        <state line="5" column="51" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="4030">
           <folding />
         </state>
       </provider>
@@ -552,18 +542,23 @@
     <entry file="file://$PROJECT_DIR$/js/lib/tagfinder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="100" column="0" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.0" vertical-offset="2874" max-vertical-offset="9610">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="38" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.46911764" vertical-offset="394" max-vertical-offset="2387">
+        <state line="86" column="16" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0" vertical-offset="1507" max-vertical-offset="2387">
           <folding>
             <element signature="e#243#1084#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Flash/Flash/MSSR Findbook/Main/MSSR_function/FindBooks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="8" selection-start="4603" selection-end="4631" vertical-scroll-proportion="0.5928899" vertical-offset="5497" max-vertical-offset="25389">
+          <folding />
         </state>
       </provider>
     </entry>
