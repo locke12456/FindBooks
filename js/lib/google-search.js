@@ -34,6 +34,7 @@
      */
     var _search_queue = [];
     $.googleSearch = function (query, options) {
+        /*   */
         var settings = $.extend({
             version: "1.0",
             type: "web",
@@ -45,12 +46,48 @@
             q: settings.query
         }, settings.urlParams)
 
-        var url = "http://ajax.googleapis.com/ajax/services/search/" + settings.type + "?callback=?&";
+        //var url = "http://ajax.googleapis.com/ajax/services/search/" + settings.type + "?callback=?&";
 
         var callback = function (response) {
+            response = JSON.parse(response);
             settings.callback(response.responseData);
         };
-        $.getJSON(url, urlParams, callback);
+
+        var url = "FindBookApi/search.php";
+        //$.getJSON(url, callback);
+        //alert(url);
+        $.ajax({
+            type: "GET",
+            url: url,
+            data: { keyword: query },
+            success: function(msg) {
+                callback(msg);
+                Search.LoadComplete();
+            }
+        });
+        Search.Loading();
+    };
+
+    $.loadPage = function (target , options) {
+        var settings = $.extend({
+            version: "1.0",
+            type: "web",
+            query: target
+        }, options);
+        var callback = function (response) {
+            settings.callback(response);
+        };
+        var url = "FindBookApi/load.php";
+        $.ajax({
+            type: "GET",
+            url: url,
+            data: { url: target },
+            success: function(msg) {
+                callback(msg);
+                Search.LoadComplete();
+            }
+        });
+        Search.Loading();
     };
     $.addToQueue = function (query, options) {
         _search_queue.push(

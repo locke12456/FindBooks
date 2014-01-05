@@ -14,6 +14,19 @@
     left: 12px;
 }
 .MenuButton:hover{
+    opacity: 0.5;
+    background: -moz-linear-gradient(top,  rgba(45,73,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(45,73,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(45,73,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(45,73,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(45,73,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(45,73,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+.MenuButton:active{
     opacity: 0.8;
     background: -moz-linear-gradient(top,  rgba(45,73,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(45,73,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */

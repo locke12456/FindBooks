@@ -1,0 +1,18 @@
+{
+  "name": "FindBook",
+  "description": "Description of the app",
+  "icons": {
+    "128": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAVklEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBvAI8AAT4ZY7sAAAAASUVORK5CYII="
+  },
+  "activities": {
+      "share": {
+        "filters": {
+          "type": [ "image" ]
+        },
+        "href": "index.html" ,
+        "disposition": "window",
+        "returnValue": true
+         }
+     },
+  "launch_path": "/FindBooks/index.html"
+}

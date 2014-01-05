@@ -3,9 +3,11 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/Search.css">
     <link rel="stylesheet" href="css/SearchListContain.css">
+    <link rel="stylesheet" href="css/jquery.mobile.css">
     <script src="js/vendor/jquery.min.js"></script>
-    <script src='https://raw.github.com/jamespadolsey/jQuery-Plugins/master/cross-domain-ajax/jquery.xdomainajax.js' type='text/javascript'></script>
+    <script src='js/vendor/jquery.xdomainajax.js' type='text/javascript'></script>
     <script src="js/vendor/jquery.scrollview.js"></script>
+    <script src="js/vendor/jquery.mobile.min.js"></script>
     <script src="js/require.js" data-main="js/header"></script>
 </head>
 <body>
@@ -13,12 +15,7 @@
 
     function init() {
         require(['main']);
-        $("#ListContainer").scrollview({
-            grab: "http://jquery-scrollview.googlecode.com/svn/trunk/images/openhand.cur",
-            grabbing: "http://jquery-scrollview.googlecode.com/svn/trunk/images/closedhand.cur"
-        });
 
-        //
         $("#BookInfoClose").down(false);//,$("#MainContext").width());
         /*set MainContext to center position*/
         $("#MainContext").center(false, -$("#MainContext").height() / 2);
@@ -31,7 +28,28 @@
 
         $("#ListContainer").hide();
         $("#bookInformation").hide();
-        //$("#KeywordSearch").hide();
+        $("#ScanISBN").on("click", function () {
+            Search.Loading();
+            var pick = new MozActivity({
+                name: "pick",
+                data: {
+                    type: ["image/png", "image/jpg", "image/jpeg"]
+                }
+            });
+            pick.onsuccess = function () { 
+                // Create image and set the returned blob as the src
+                if (!this.result.blob)
+                    return;
+                reader = new Decoder();
+                reader.decode(this.result.blob);
+            };
+
+            pick.onerror = function () { 
+                // If an error occurred or the user canceled the activity
+                alert("Can't get the image!");
+                Search.LoadComplete();
+            };
+        });
         /**/
 
     }
@@ -39,9 +57,10 @@
 
 <div id="ListContainer" class="ListContainer">
     <div id=ListTable class="ListTable">
-        <table id="List">
+        <ul id="List" data-role="listview" data-filter="true" data-filter-placeholder="Search ..." data-inset="true"
+            class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
 
-        </table>
+        </ul>
     </div>
 </div>
 <div id="bookInformation" class="BookInformationContain">
@@ -80,6 +99,8 @@
 
             </tr>
         </table>
+        <div id="bookPrice">
+        </div>
         <div id="bookDepiction">
         </div>
         <button id="BookInfoClose" class="Back">Back</button>
@@ -102,23 +123,22 @@
             <tr>
                 <td width="64" align="center">
                     <div class="MenuButton" id="SearchByKeyword">
-                        <object data="svg/pen.svg" width="48"></object>
+                        <img src="svg/pen.svg" width="48"/>
                     </div>
                 </td>
                 <td width="64" align="center">
                     <div class="MenuButton" id="ScanISBN">
-                        <object data="svg/camera.svg" width="48"></object>
+                        <img src="svg/camera.svg" width="48"/>
                     </div>
                 </td>
                 <td width="64" align="center">
                     <div class="MenuButton" id="History">
-                        <object data="svg/history.svg" width="48"></object>
+                        <img src="svg/history.svg" width="48"/>
                     </div>
                 </td>
             </tr>
         </table>
     </div>
 </div>
-
 </body>
 </html>

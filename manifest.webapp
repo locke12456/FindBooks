@@ -1,11 +1,16 @@
 {
-    "name": "FindBooks",
-    "description": "Say hello to FirefoxOS world!",
-    "launch_path": "/index.html",
-    "developer": {
-        "name": "Locke Chen",
-        "url": "Your Website Link Here"
-    },
-    "default_locale": "en"
-    ,"permissions":{}
+  "version": "0",
+  "name": "Findbook",
+  "description": "jsFiddle example",
+  "launch_path": "/FindBooks/index.html",
+  "icons": {
+    "128": "/FindBooks/image/128.png"
+  },
+  "developer": {
+    "name": "locke12456"
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "http://fiddle.jshell.net/locke12456/DMTs9/appcache.manifest",
+  "default_locale": "en"
 }
+

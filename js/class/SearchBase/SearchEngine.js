@@ -9,15 +9,16 @@ Search.SearchEngine = Class.extend({
     ctor: function () {
         this._super();
     },
-    search: function (key, site, callback) {
+    search: function (key, callback) {
         Search.SearchEngine.callback = callback;
-        $.googleSearch(key + "+site:" + site, {
+        $.googleSearch(key, {
                 callback: this._searchCallback
             }
         );
     },
     _searchCallback: function (responseData) {
         try {
+            if(responseData.results.length == 0)throw ("search fail");
             var windowWidth = $(window).width(); //retrieve current window width
             var windowHeight = $(window).height(); //retrieve current window height
             windowHeight = windowWidth > windowHeight ? windowHeight / 4 : windowWidth / 4;
@@ -25,18 +26,24 @@ Search.SearchEngine = Class.extend({
             responseData.results = responseData.results = responseData.results || [];
 
             for (var i = 0; i < responseData.results.length; i++) {
-                var td = '<td>' + Search.SearchEngine.HeaderReplace(responseData.results[i].title,"博客來") + '</td>';
-                td += '<td  id=list_tr' + i.toString() + '_dec >' + responseData.results[i].content + '</td>';
-                var tag = '<tr id=list_tr' + i.toString() + ' class=List' + '>' + td + '</tr>';
-                $("#List").append(tag);
-                $("#list_tr" + i).attr("height", (windowHeight).toString() + 'px');
-                $("#list_tr" + i).attr("width", "100%");
-                $("#list_tr" + i).attr("name", responseData.results[i].url);
-                $("#list_tr" + i).click(Search.SearchEngine.loadBookMessage);
-                $("#list_tr" + i)['url'] = responseData.results[i].url;
+                var url = responseData.results[i].url;
+                var https = url.indexOf("https") != -1;
+                var basic = url.indexOf("basic") != -1;
+                if (!https && basic) {
+                    var title = responseData.results[i].title;
+                    var name = '<a id=list_tr' + i.toString() + '_dec' + ' href="#">' + title + '</a>';
+                    var li = '<li id="list_tr' + i.toString() + '">' + name + '</li>';
+                    $("#List").append(li);
+                    $("#list_tr" + i).attr("name", url);
+                    $("#list_tr" + i).on("click", Search.SearchEngine.loadBookMessage);
+                    $("#list_tr" + i).attr("url", url);
+                    $("#list_tr" + i).attr("dec", responseData.results[i].content);
+                }
             }
-            if(responseData.results.length!=0)
-            $("#ListContainer").show();
+
+            $("#List").listview("refresh");
+            if (responseData.results.length != 0)
+                $("#ListContainer").show();
             $("#KeywordSearch").hide();
             var callback = this._callback;
         } catch (e) {
@@ -46,12 +53,12 @@ Search.SearchEngine = Class.extend({
 
 
 });
-Search.SearchEngine.HeaderReplace=function(name,header){
-    name = name.replace(header,"");
-    name = name.replace("-","");
+Search.SearchEngine.HeaderReplace = function (name, header) {
+    name = name.replace(header, "");
+    name = name.replace("-", "");
     return name;
 }
-Search.SearchEngine.LoadPage = function (url_path,callback) {
+Search.SearchEngine.LoadPage = function (url_path, callback) {
     var url = url_path;
     //var callback = Search.SearchEngine.callback;
     $.ajax({
@@ -61,18 +68,30 @@ Search.SearchEngine.LoadPage = function (url_path,callback) {
     });
 }
 Search.SearchEngine.loadBookMessage = function (e) {
-    var url = $("#" + e.currentTarget.id).attr("name");
-    var dec = $("#" + e.currentTarget.id+"_dec").text();
-    $("#bookDepiction").text(dec);
+    var url = $("#" + e.currentTarget.id).attr("url");
+    var dec = $("#" + e.currentTarget.id).attr("dec");
+    $("#bookDepiction").empty();
+    $("#bookDepiction").append(dec);
     var callback = Search.SearchEngine.callback;
-    $.ajax({
-        url: "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D'" + url + "'&format=xml&callback=callback",
-        type: 'GET',
-        dataType: 'jsonp'
-    });
+    //var url = url_path;
+    //var callback = Search.SearchEngine.callback;
+    $.loadPage(url, {callback: callback});
     Search.SearchEngine.clearList();
 }
 Search.SearchEngine.clearList = function () {
     $("#List").empty();
     $("#ListContainer").hide();
+}
+
+Search.Loading = function(){
+    $.mobile.loading("show", {
+        text: "Loading .. ",
+        textVisible: true,
+        theme: "b",
+        textonly:false,
+        html: ""
+    });
+}
+Search.LoadComplete = function(){
+    $.mobile.loading( "hide" );
 }

@@ -23,65 +23,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="51" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="4030">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="22" selection-start="28" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="1054">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="1" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="1395">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchEngine.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SearchEngine.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/class/SearchBase/SearchEngine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="2153" selection-end="2153" vertical-scroll-proportion="0.0" vertical-offset="1674" max-vertical-offset="2573">
+            <state line="72" column="32" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.559415" vertical-offset="1926" max-vertical-offset="3162">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/vendor/jquery.min.js">
+      <file leaf-file-name="DecoderWorker.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/barcode/DecoderWorker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="17299" selection-end="17299" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="744">
+            <state line="1592" column="4" selection-start="39651" selection-end="39651" vertical-scroll-proportion="0.0" vertical-offset="48798" max-vertical-offset="50933">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="working.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/barcode/working.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="186">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tagfinder.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/lib/tagfinder.js">
+      <file leaf-file-name="Decoder.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/class/Decoder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="0" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.0" vertical-offset="2874" max-vertical-offset="9610">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Class.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/class/Class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2139">
-              <folding />
+            <state line="21" column="16" selection-start="594" selection-end="616" vertical-scroll-proportion="-7.1" vertical-offset="234" max-vertical-offset="961">
+              <folding>
+                <element signature="e#0#34#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,28 +66,46 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="16" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0" vertical-offset="1507" max-vertical-offset="2387">
+            <state line="3" column="148" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2883">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="32" selection-start="1871" selection-end="1871" vertical-scroll-proportion="-6.975" vertical-offset="1209" max-vertical-offset="4650">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reader.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/barcode/Reader.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="70" selection-start="410" selection-end="463" vertical-scroll-proportion="-3.1" vertical-offset="279" max-vertical-offset="3100">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.webapp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/manifest.webapp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_barcode_from_image.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/lib/get_barcode_from_image.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="23" selection-start="386" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="3038">
               <folding>
-                <element signature="e#243#1084#0" expanded="false" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindBooks.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://D:/Flash/Flash/MSSR Findbook/Main/MSSR_function/FindBooks.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="8" selection-start="4603" selection-end="4631" vertical-scroll-proportion="0.5928899" vertical-offset="5497" max-vertical-offset="25389">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="26" selection-start="8604" selection-end="8604" vertical-scroll-proportion="0.0" vertical-offset="706" max-vertical-offset="5053">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -125,30 +120,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="D:/SOFTWERE/google_data.js" />
-        <option value="$PROJECT_DIR$/svg/1385914096_32.svg" />
-        <option value="$PROJECT_DIR$/svg/camera.svg" />
-        <option value="$PROJECT_DIR$/svg/history.svg" />
-        <option value="$PROJECT_DIR$/svg/pen.svg" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/js/header.js" />
+        <option value="$PROJECT_DIR$/FindBookApi/load.php" />
+        <option value="$PROJECT_DIR$/FindBookApi/getBook.php" />
+        <option value="$PROJECT_DIR$/FindBookApi/Findbook.php" />
+        <option value="$PROJECT_DIR$/../find/manifest.webapp" />
+        <option value="$PROJECT_DIR$/FindBook/manifest.webapp" />
+        <option value="$PROJECT_DIR$/install.html" />
+        <option value="$PROJECT_DIR$/manifest.webapp" />
         <option value="$PROJECT_DIR$/js/lib/google-search.js" />
-        <option value="$PROJECT_DIR$/js/class/SearchInBKL.js" />
-        <option value="$PROJECT_DIR$/js/class/SearchIn_iRead.js" />
-        <option value="$PROJECT_DIR$/js/class/SearchIn_TAAZE.js" />
-        <option value="$PROJECT_DIR$/js/class/SearchIn_KSD.js" />
-        <option value="$PROJECT_DIR$/js/class/SearchBase/SearchEngine.js" />
-        <option value="$PROJECT_DIR$/js/test.html" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/barcode/working.js" />
+        <option value="$PROJECT_DIR$/js/barcode/DecoderWorker.js" />
+        <option value="$PROJECT_DIR$/js/class/Decorder.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/class/Decoder.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/class/SearchBase/SearchEngine.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1928" />
-    <option name="height" value="1060" />
+    <option name="width" value="1688" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -309,6 +304,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="barcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindBooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindBooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindBooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindBooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindBookApi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindBooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindBooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindBook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindBooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindBooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -319,15 +374,40 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
-    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PublishConfig" serverName="57" serverId="dac22364-d7ed-4d9d-98aa-87f55e71a24a">
+    <servers>
+      <server id="dac22364-d7ed-4d9d-98aa-87f55e71a24a">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/html//FindBooks" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaScript\FindBooks\js\class\SearchBase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaScript\FindBooks\js\vendor" />
+      <recent name="D:\JavaScript\FindBooks\image" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.app">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -395,17 +475,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1060" extended-state="6" />
+    <frame x="-4" y="-4" width="1688" height="1030" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32855567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1515625" sideWeight="0.77949286" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22050716" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26785713" sideWeight="0.6714443" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1404762" sideWeight="0.6714443" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3076075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855567" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -430,134 +512,148 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/class/SearchBase/SearchEngine.js</url>
-          <line>54</line>
+          <line>61</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/main.js</url>
-          <line>45</line>
-          <option name="timeStamp" value="9" />
+          <line>18</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/main.js</url>
-          <line>33</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/js/lib/google-search.js</url>
+          <line>83</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/main.js</url>
-          <line>48</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/js/lib/google-search.js</url>
+          <line>84</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/main.js</url>
-          <line>47</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/js/lib/google-search.js</url>
+          <line>96</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="39" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/test.html">
+    <entry file="file://$PROJECT_DIR$/manifest.webapp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="26" selection-start="8604" selection-end="8604" vertical-scroll-proportion="0.0" vertical-offset="706" max-vertical-offset="5053">
+        <state line="6" column="32" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svg/1385914096_32.svg">
+    <entry file="file://$PROJECT_DIR$/css/SearchListContain.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1446" selection-start="1446" selection-end="1461" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="186" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svg/pen.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2095" selection-start="2084" selection-end="2099" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="186" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svg/history.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="55" selection-start="564" selection-end="577" vertical-scroll-proportion="0.38613862" vertical-offset="22" max-vertical-offset="806" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="38" selection-start="3154" selection-end="3154" vertical-scroll-proportion="1.3166023" vertical-offset="2325" max-vertical-offset="3968" />
+        <state line="2" column="11" selection-start="52" selection-end="52" vertical-scroll-proportion="-0.8857143" vertical-offset="558" max-vertical-offset="1395">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/lib/google-search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="6" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2139" />
+        <state line="64" column="38" selection-start="2353" selection-end="2353" vertical-scroll-proportion="0.0" vertical-offset="2159" max-vertical-offset="3286">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="28" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+        <state line="10" column="1" selection-start="1241" selection-end="1241" vertical-scroll-proportion="-1.0402194" vertical-offset="879" max-vertical-offset="1426">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/vendor/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/css/Search.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="17299" selection-end="17299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="434">
+        <state line="5" column="21" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3968">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/header.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="1" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
+        <state line="1265" column="18" selection-start="22275" selection-end="22275" vertical-scroll-proportion="0.0" vertical-offset="38947" max-vertical-offset="67332">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/Class.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2139">
+        <state line="55" column="5" selection-start="1052" selection-end="1057" vertical-scroll-proportion="0.0" vertical-offset="1519" max-vertical-offset="117893">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/test.html">
+    <entry file="file://$USER_HOME$/Downloads/manifest.webapp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="26" selection-start="8604" selection-end="8604" vertical-scroll-proportion="0.0" vertical-offset="706" max-vertical-offset="5053">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lib/get_barcode_from_image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="23" selection-start="386" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="3038">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/Decoder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="16" selection-start="594" selection-end="616" vertical-scroll-proportion="-7.1" vertical-offset="234" max-vertical-offset="961">
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="148" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2883">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/barcode/Reader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="70" selection-start="410" selection-end="463" vertical-scroll-proportion="-3.1" vertical-offset="279" max-vertical-offset="3100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/barcode/DecoderWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1592" column="4" selection-start="39651" selection-end="39651" vertical-scroll-proportion="0.0" vertical-offset="48984" max-vertical-offset="50933">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/barcode/working.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="51" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="4030">
+        <state line="48" column="32" selection-start="1871" selection-end="1871" vertical-scroll-proportion="-6.975" vertical-offset="1209" max-vertical-offset="4650">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/class/SearchBase/SearchEngine.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="2153" selection-end="2153" vertical-scroll-proportion="0.0" vertical-offset="1447" max-vertical-offset="2573">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/tagfinder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.0" vertical-offset="2874" max-vertical-offset="9610">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="16" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0" vertical-offset="1507" max-vertical-offset="2387">
-          <folding>
-            <element signature="e#243#1084#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Flash/Flash/MSSR Findbook/Main/MSSR_function/FindBooks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="8" selection-start="4603" selection-end="4631" vertical-scroll-proportion="0.5928899" vertical-offset="5497" max-vertical-offset="25389">
+        <state line="72" column="32" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.559415" vertical-offset="1926" max-vertical-offset="3162">
           <folding />
         </state>
       </provider>
