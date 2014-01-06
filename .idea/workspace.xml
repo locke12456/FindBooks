@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SearchEngine.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SearchEngine.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/class/SearchBase/SearchEngine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="32" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.559415" vertical-offset="1926" max-vertical-offset="3162">
+            <state line="88" column="32" selection-start="3344" selection-end="3344" vertical-scroll-proportion="0.0" vertical-offset="1418" max-vertical-offset="3658">
               <folding />
             </state>
           </provider>
@@ -55,7 +55,7 @@
       <file leaf-file-name="Decoder.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/class/Decoder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="16" selection-start="594" selection-end="616" vertical-scroll-proportion="-7.1" vertical-offset="234" max-vertical-offset="961">
+            <state line="17" column="38" selection-start="440" selection-end="440" vertical-scroll-proportion="-9.3" vertical-offset="0" max-vertical-offset="961">
               <folding>
                 <element signature="e#0#34#0" expanded="false" />
               </folding>
@@ -63,10 +63,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="History.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/class/History.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="21" selection-start="706" selection-end="706" vertical-scroll-proportion="0.4818653" vertical-offset="558" max-vertical-offset="2387">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="148" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2883">
+            <state line="15" column="37" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2573">
               <folding />
             </state>
           </provider>
@@ -75,7 +84,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="32" selection-start="1871" selection-end="1871" vertical-scroll-proportion="-6.975" vertical-offset="1209" max-vertical-offset="4650">
+            <state line="30" column="0" selection-start="1163" selection-end="1163" vertical-scroll-proportion="-23.25" vertical-offset="0" max-vertical-offset="3999">
               <folding />
             </state>
           </provider>
@@ -102,7 +111,7 @@
       <file leaf-file-name="get_barcode_from_image.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/lib/get_barcode_from_image.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="23" selection-start="386" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="3038">
+            <state line="76" column="25" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.0" vertical-offset="2366" max-vertical-offset="3038">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -120,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/FindBookApi/load.php" />
         <option value="$PROJECT_DIR$/FindBookApi/getBook.php" />
         <option value="$PROJECT_DIR$/FindBookApi/Findbook.php" />
         <option value="$PROJECT_DIR$/../find/manifest.webapp" />
@@ -132,10 +140,11 @@
         <option value="$PROJECT_DIR$/js/barcode/working.js" />
         <option value="$PROJECT_DIR$/js/barcode/DecoderWorker.js" />
         <option value="$PROJECT_DIR$/js/class/Decorder.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/class/SearchBase/SearchEngine.js" />
         <option value="$PROJECT_DIR$/js/class/Decoder.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/class/SearchBase/SearchEngine.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/class/History.js" />
       </list>
     </option>
   </component>
@@ -232,42 +241,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindBooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindBooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindBooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindBooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="class" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -291,24 +264,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SearchBase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindBooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindBooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="barcode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,7 +394,7 @@
       <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
-    <configuration default="false" name="app" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" engineId="firefox" uri="http://localhost:63342/FindBooks/index.html">
+    <configuration default="false" name="app" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" engineId="firefox" uri="http://140.115.53.57/FindBooks/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -478,14 +433,14 @@
     <frame x="-4" y="-4" width="1688" height="1030" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32855567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26785713" sideWeight="0.6714443" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1404762" sideWeight="0.6714443" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3076075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26785713" sideWeight="0.6923925" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1404762" sideWeight="0.6923925" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3076075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855567" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -512,12 +467,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/class/SearchBase/SearchEngine.js</url>
-          <line>61</line>
+          <line>77</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/main.js</url>
-          <line>18</line>
+          <line>43</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -540,13 +495,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manifest.webapp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="32" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/SearchListContain.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="11" selection-start="52" selection-end="52" vertical-scroll-proportion="-0.8857143" vertical-offset="558" max-vertical-offset="1395">
@@ -596,38 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/get_barcode_from_image.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="386" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="3038">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/Decoder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="594" selection-end="616" vertical-scroll-proportion="-7.1" vertical-offset="234" max-vertical-offset="961">
-          <folding>
-            <element signature="e#0#34#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="148" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2883">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/barcode/Reader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="70" selection-start="410" selection-end="463" vertical-scroll-proportion="-3.1" vertical-offset="279" max-vertical-offset="3100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/barcode/DecoderWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1592" column="4" selection-start="39651" selection-end="39651" vertical-scroll-proportion="0.0" vertical-offset="48984" max-vertical-offset="50933">
@@ -644,16 +560,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/lib/get_barcode_from_image.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="32" selection-start="1871" selection-end="1871" vertical-scroll-proportion="-6.975" vertical-offset="1209" max-vertical-offset="4650">
+        <state line="76" column="25" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.0" vertical-offset="2366" max-vertical-offset="3038">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/barcode/Reader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="70" selection-start="410" selection-end="463" vertical-scroll-proportion="-3.1" vertical-offset="279" max-vertical-offset="3100">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/class/SearchBase/SearchEngine.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="32" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.559415" vertical-offset="1926" max-vertical-offset="3162">
+        <state line="88" column="32" selection-start="3344" selection-end="3344" vertical-scroll-proportion="0.0" vertical-offset="3111" max-vertical-offset="3658">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1163" selection-end="1163" vertical-scroll-proportion="-23.25" vertical-offset="0" max-vertical-offset="3999">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="37" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="2573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/Decoder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="38" selection-start="440" selection-end="440" vertical-scroll-proportion="-9.3" vertical-offset="0" max-vertical-offset="961">
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/History.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="21" selection-start="706" selection-end="706" vertical-scroll-proportion="0.4818653" vertical-offset="558" max-vertical-offset="2387">
           <folding />
         </state>
       </provider>

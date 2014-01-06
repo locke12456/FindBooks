@@ -30,24 +30,25 @@ Search.SearchEngine = Class.extend({
                 var https = url.indexOf("https") != -1;
                 var basic = url.indexOf("basic") != -1;
                 if (!https && basic) {
+                    var id = 'list_tr' + i.toString();
                     var title = responseData.results[i].title;
-                    var name = '<a id=list_tr' + i.toString() + '_dec' + ' href="#">' + title + '</a>';
-                    var li = '<li id="list_tr' + i.toString() + '">' + name + '</li>';
-                    $("#List").append(li);
-                    $("#list_tr" + i).attr("name", url);
-                    $("#list_tr" + i).on("click", Search.SearchEngine.loadBookMessage);
-                    $("#list_tr" + i).attr("url", url);
-                    $("#list_tr" + i).attr("dec", responseData.results[i].content);
+                    var item = new History.Item();item.init(id , title ,url ,responseData.results[i].content);
+                    $("#List").append(item.Tag());
+                    $("#"+id).on("click", Search.SearchEngine.loadBookMessage);
+                    $("#"+id).attr("name", title);
+                    $("#"+id).attr("url", url);
+                    $("#"+id).attr("dec", responseData.results[i].content);
                 }
             }
 
             $("#List").listview("refresh");
-            if (responseData.results.length != 0)
+            if (responseData.results.length != 0){
                 $("#ListContainer").show();
-            $("#KeywordSearch").hide();
+                $("#KeywordSearch").hide();
+            }
             var callback = this._callback;
         } catch (e) {
-            throw ("Search fail");
+            alert ("Search fail");
         }
     }
 
@@ -68,13 +69,28 @@ Search.SearchEngine.LoadPage = function (url_path, callback) {
     });
 }
 Search.SearchEngine.loadBookMessage = function (e) {
-    var url = $("#" + e.currentTarget.id).attr("url");
-    var dec = $("#" + e.currentTarget.id).attr("dec");
+    var id = e.currentTarget.id;
+    var name = $("#" + id).attr("name");;
+    var url = $("#" + id).attr("url");
+    var dec = $("#" + id).attr("dec");
     $("#bookDepiction").empty();
     $("#bookDepiction").append(dec);
     var callback = Search.SearchEngine.callback;
     //var url = url_path;
     //var callback = Search.SearchEngine.callback;
+    $.loadPage(url, {callback: callback});
+    Search.SearchEngine.clearList();
+    var item = new History.Item();item.init(id , name ,url ,dec);
+    History.HISTORY.add(item);
+}
+Search.SearchEngine.loadBookMessageFromItem = function (e) {
+    var id = e.currentTarget.id;
+    var name = $("#" + id).attr("name");;
+    var url = $("#" + id).attr("url");
+    var dec = $("#" + id).attr("dec");
+    $("#bookDepiction").empty();
+    $("#bookDepiction").append(dec);
+    var callback = Search.SearchEngine.callback;
     $.loadPage(url, {callback: callback});
     Search.SearchEngine.clearList();
 }

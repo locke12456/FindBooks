@@ -28,28 +28,7 @@
 
         $("#ListContainer").hide();
         $("#bookInformation").hide();
-        $("#ScanISBN").on("click", function () {
-            Search.Loading();
-            var pick = new MozActivity({
-                name: "pick",
-                data: {
-                    type: ["image/png", "image/jpg", "image/jpeg"]
-                }
-            });
-            pick.onsuccess = function () { 
-                // Create image and set the returned blob as the src
-                if (!this.result.blob)
-                    return;
-                reader = new Decoder();
-                reader.decode(this.result.blob);
-            };
 
-            pick.onerror = function () { 
-                // If an error occurred or the user canceled the activity
-                alert("Can't get the image!");
-                Search.LoadComplete();
-            };
-        });
         /**/
 
     }

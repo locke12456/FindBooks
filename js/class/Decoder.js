@@ -18,7 +18,7 @@ Decoder = Class.extend({
                 var barcode = getBarcodeFromImage(img);
                 if(!barcode){
                     alert("decode fail");
-                }else $("#input").val(barcode);
+                }else $("#input").val("9"+barcode);
                 Search.LoadComplete();
             },500);
 
