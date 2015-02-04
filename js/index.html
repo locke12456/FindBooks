@@ -1,0 +1,165 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/Search.css">
+    <link rel="stylesheet" href="css/SearchListContain.css">
+    <link rel="stylesheet" href="css/jquery.mobile.css">
+    <script type="text/javascript" src="js/jsqrcode/grid.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/version.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/detector.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/formatinf.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/errorlevel.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/bitmat.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/datablock.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/bmparser.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/datamask.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/rsdecoder.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/gf256poly.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/gf256.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/decoder.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/qrcode.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/findpat.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/alignpat.js"></script>
+    <script type="text/javascript" src="js/jsqrcode/databr.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src='js/vendor/jquery.xdomainajax.js' type='text/javascript'></script>
+    <script src="js/vendor/jquery.scrollview.js"></script>
+    <script src="js/vendor/jquery.mobile.min.js"></script>
+    <script src="js/require.js" data-main="js/header"></script>
+</head>
+<body>
+<script>
+
+    function init() {
+        Canvas = document.createElement("canvas");
+        Canvas.width=640;
+        Canvas.height=480;
+        require(['main']);
+
+        $("#BookInfoClose").down(false);//,$("#MainContext").width());
+        /*set MainContext to center position*/
+        $("#MainContext").center(false, -$("#MainContext").height() / 2);
+        /* */
+        $("#MenuContext").center(true, -3, $("#MenuContext").width() / 4);
+        //$("#MenuContext").css("position","fixed");
+        $("#MenuBar").css("width", $(window).width());
+        $("#MenuBar").css("padding", 26);
+        $("#MenuBar").down(false);
+
+        $("#ListContainer").hide();
+        $("#bookInformation").hide();
+        $("#ScanISBN").on("click", function () {
+
+            var pick = new MozActivity({
+                name: "pick",
+                data: {
+                    type: ["image/png", "image/jpg", "image/jpeg"]
+                }
+            });
+            pick.onsuccess = function () { 
+                // Create image and set the returned blob as the src
+                if (!this.result.blob)
+                    return;
+                reader = new Decoder();
+                reader.init("js/barcode/DecoderWorker.js");
+                reader.decode(this.result.blob);
+            };
+
+            pick.onerror = function () { 
+                // If an error occurred or the user canceled the activity
+                alert("Can't view the image!");
+            };
+        });
+        /**/
+
+    }
+</script>
+
+<div id="ListContainer" class="ListContainer">
+    <div id=ListTable class="ListTable">
+        <ul id="List" data-role="listview" data-filter="true" data-filter-placeholder="Search ..." data-inset="true"
+            class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
+
+        </ul>
+    </div>
+</div>
+<div id="bookInformation" class="BookInformationContain">
+    <div class="BookInformation">
+        <table>
+            <tr>
+                <td>
+                    <div>
+                        <div align="center"><img src="" id="book_img" class="BookInformationImage"></div>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <table>
+                            <tr>
+                                <td id="bookName" class=BookInformationText>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bookAuthor" class=BookInformationText>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bookPublishing" class=BookInformationText>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bookISBN" class=BookInformationText>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+        <div id="bookPrice">
+        </div>
+        <div id="bookDepiction">
+        </div>
+        <button id="BookInfoClose" class="Back">Back</button>
+    </div>
+</div>
+<div id="KeywordSearch">
+    <div id="MainContext">
+        <div align="center"><a class="Logo">FindBooks</a></div>
+        <table align="center">
+            <tr>
+                <td><input class="SearchInput" id="input" type="text" size="30%"></td>
+                <td>
+                    <button class=SearchButton id="search" size="10%"> Search</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="MenuBar">
+        <table id="MenuContext">
+            <tr>
+                <td width="64" align="center">
+                    <div class="MenuButton" id="SearchByKeyword">
+                        <img src="svg/pen.svg" width="48"/>
+                    </div>
+                </td>
+                <td width="64" align="center">
+                    <div class="MenuButton" id="ScanISBN">
+                        <img src="svg/camera.svg" width="48"/>
+                    </div>
+                </td>
+                <td width="64" align="center">
+                    <div class="MenuButton" id="History">
+                        <img src="svg/history.svg" width="48"/>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<img width="320" height="240" src="about:blank" alt="" id="picture">
+</body>
+</html>
